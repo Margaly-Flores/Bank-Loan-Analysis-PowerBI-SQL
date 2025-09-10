@@ -10,6 +10,8 @@
     Your browser does not support the video tag.
 </video>
 
+https://github.com/Margaly-Flores/Bank-Loan-Analysis-PowerBI-SQL/blob/main/powerbi/dashboard_video
+
 <video src="https://github.com/Margaly-Flores/Bank-Loan-Analysis-PowerBI-SQL/blob/main/powerbi/dashboard_video"
     controls
     width="900"
