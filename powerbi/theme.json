@@ -1,0 +1,112 @@
+{
+  "name": "LendinClub-Dark Blue/Orange",
+  "background": "#08243A",
+  "foreground": "#F2F4F7",
+  "tableAccent": "#EB3F23",
+
+  "dataColors": [
+    "#FA662B", "#F6CE60", "#5E7CE2", "#CFDEE7",
+    "#FA662B", "#F6CE60", "#5E7CE2", "#CFDEE7"
+  ],
+
+  "visualStyles": {
+    "page": {
+      "*": {
+        "background": [
+          { "color": { "solid": { "color": "#08243A" } }, "transparency": 0 }
+        ]
+      }
+    },
+
+    "*": {
+      "title":        [ { "color": { "solid": { "color": "#F2F4F7" } }, "fontSize": 12 } ],
+      "categoryLabels":[ { "color": { "solid": { "color": "#F2F4F7" } } } ],
+      "labels":       [ { "color": { "solid": { "color": "#F2F4F7" } } } ],
+      "legend":       [ { "labelColor": { "solid": { "color": "#F2F4F7" } } } ]
+    },
+
+    "card": {
+      "*": {
+        "background":   [ { "color": { "solid": { "color": "#0D3C60" } }, "transparency": 0 } ],
+        "title":        [ { "color": { "solid": { "color": "#92B4F4" } } } ],
+        "categoryLabels":[ { "color": { "solid": { "color": "#F2F4F7" } } } ],
+        "labels":       [ { "color": { "solid": { "color": "#F0E199" } }, "fontSize": 20 } ]
+      }
+    },
+
+    "multiRowCard": {
+      "*": {
+        "background": [ { "color": { "solid": { "color": "#0D3C60" } }, "transparency": 0 } ],
+        "title":      [ { "color": { "solid": { "color": "#92B4F4" } } } ],
+        "labels":     [ { "color": { "solid": { "color": "#F0E199" } } } ],
+        "categoryLabels":[ { "color": { "solid": { "color": "#F2F4F7" } } } ]
+      }
+    },
+
+    "slicer": {
+      "*": {
+        "background": [ { "color": { "solid": { "color": "#0D3C60" } }, "transparency": 0 } ],
+        "title":      [ { "color": { "solid": { "color": "#F2F4F7" } } } ],
+        "items":      [ { "fontColor": { "solid": { "color": "#F2F4F7" } } } ]
+      }
+    },
+
+    "pieChart": {
+      "*": {
+        "legend":     [ { "labelColor": { "solid": { "color": "#F2F4F7" } } } ],
+        "dataLabels": [ { "show": true, "color": { "solid": { "color": "#FFFFFF" } } } ]
+      }
+    },
+
+    "barChart": {
+      "*": {
+        "dataLabels": [ { "show": true, "color": { "solid": { "color": "#F2F4F7" } } } ],
+        "legend":     [ { "labelColor": { "solid": { "color": "#F2F4F7" } } } ]
+      }
+    },
+
+    "tableEx": {
+      "*": {
+        "background": [ { "color": { "solid": { "color": "#0D3C60" } }, "transparency": 0 } ],
+        "columnHeaders": [
+          { "fontColor": { "solid": { "color": "#F2F4F7" } },
+            "background": { "solid": { "color": "#2F3E46" } } }
+        ],
+        "values": [ { "fontColor": { "solid": { "color": "#F2F4F7" } } } ],
+        "total":  [
+          { "fontColor": { "solid": { "color": "#F2F4F7" } },
+            "background": { "solid": { "color": "#2F3E46" } } }
+        ],
+        "bandedRows": [
+          { "show": true,
+            "oddRowBackgroundColor": { "solid": { "color": "#0D3C60" } },
+            "evenRowBackgroundColor": { "solid": { "color": "#0D3C60" } },
+            "oddRowTextColor": { "solid": { "color": "#F2F4F7" } },
+            "evenRowTextColor": { "solid": { "color": "#F2F4F7" } } }
+        ]
+      }
+    },
+
+    "matrix": {
+      "*": {
+        "background": [ { "color": { "solid": { "color": "#0D3C60" } }, "transparency": 0 } ],
+        "columnHeaders": [
+          { "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "background": { "solid": { "color": "#0E1A77" } } }
+        ],
+        "rowHeaders": [
+          { "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "background": { "solid": { "color": "#0E1A77" } } }
+        ],
+        "values": [ { "fontColor": { "solid": { "color": "#FFFFFF" } } } ],
+        "bandedRows": [
+          { "show": true,
+            "oddRowBackgroundColor": { "solid": { "color": "#0A369D" } },
+            "evenRowBackgroundColor": { "solid": { "color": "#4472CA" } },
+            "oddRowTextColor": { "solid": { "color": "#FFFFFF" } },
+            "evenRowTextColor": { "solid": { "color": "#FFFFFF" } } }
+        ]
+      }
+    }
+  }
+}
