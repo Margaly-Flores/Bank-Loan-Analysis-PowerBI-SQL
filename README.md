@@ -9,3 +9,8 @@
     <source src="powerbi/dashboard_video.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
+
+<video src="https://github.com/Margaly-Flores/Bank-Loan-Analysis-PowerBI-SQL/blob/main/powerbi/dashboard_video"
+    controls
+    width="900"
+    title="Project.Preview.mp4"></video>
