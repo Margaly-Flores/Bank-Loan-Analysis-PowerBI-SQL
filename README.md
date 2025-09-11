@@ -12,18 +12,6 @@ https://github.com/user-attachments/assets/bb64417f-318c-4936-9bdf-97a58bd92b79
 
 This project repository is organised as follows: 
 
-├── LICENSE
-├── README.md              <- README .
-├── notebooks              <- Folder containing the final reports/results of this project.
-│   └── bank_german_customer_segmentation.py  <- Final notebook for the project.
-├── reports                <- Folder containing the final reports/results of this project.
-│   └── Pizza_Sales_Report.pdf                <- Final analysis report in PDF.
-├── src                    <- Source for this project.
-│   ├── data               <- Datasets used and collected for this project.
-│   └── model              <- Model.
-
-
-## Data
 ```text
 .
 ├── data/                    <- Datasets used
@@ -34,3 +22,6 @@ This project repository is organised as follows:
 ├── .gitattributes
 └── README.md                <- README .
 ```
+
+
+## Data
