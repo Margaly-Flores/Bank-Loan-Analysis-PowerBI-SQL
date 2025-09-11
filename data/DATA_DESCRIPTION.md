@@ -10,27 +10,7 @@ ADDRESS_STATE  |  Borrower’s location.
 APPLICATION_TYPE  |  Application type. Indicates whether the loan is an individual application or a joint one with two co-borrowers.
 EMP_LENGTH  |  Employment length. Information about the borrower’s job stability. Duration of employment in years. Possible values range from 0 to 10, where 0 means less than one year and 10 means ten or more years.
 EMP_TITLE  |  Job title. Specifies the borrower’s occupation or job title. Helps to understand the source of income.
-GRADE  |  Risk grade assigned to the loan according to the borrower’s creditworthiness. Higher grades indicate lower risk. A, B, C, D, E, F. **A** → Very low risk
-Borrowers with excellent credit history, high income, and low debt.
-Lowest interest rate.
-Highest probability of on-time payments.
-**B** → Low risk
-Good credit history, stable income.
-Interest rate slightly higher than A, but still attractive.
-**C** → Moderate risk
-Decent credit history, but with some warning signs (e.g., higher debt or less stable income).
-Medium interest rate.
-**D** → High risk
-Possible past credit issues, less consistent income.
-Higher interest rate to offset risk.
-**E** → Very high risk
-Poor credit history or high level of indebtedness.
-Borrower likely to face repayment difficulties.
-Very high interest rate.
-**F** → Extreme risk
-High delinquency, history of defaults.
-Very few institutions lend to this category.
-Extremely high interest rate or direct loan rejection.
+GRADE  |  Risk grade assigned to the loan according to the borrower’s creditworthiness. Higher grades indicate lower risk. A (Very low risk), B(Low risk), C(Moderate risk), D(High risk), E(Very high risk), F(Extreme risk). 
 Content Cell  | Content Cell 
 Content Cell  | Content Cell
 Content Cell  | Content Cell 
