@@ -24,9 +24,7 @@ This project repository is organised as follows:
 
 
 ## Data
-
-
-
+```text
 .
 ├── data/                    <- Bank Loan Analysis project
 ├── docs/
@@ -35,3 +33,4 @@ This project repository is organised as follows:
 ├── sql/                     <- SQL scripts used in the project
 ├── .gitattributes
 └── README.md
+```
