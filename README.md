@@ -26,11 +26,11 @@ This project repository is organised as follows:
 ## Data
 ```text
 .
-├── data/                    <- Bank Loan Analysis project
+├── data/                    <- Datasets used
 ├── docs/
-│   └── powerbi_photos/      <- Images/screenshots for the README
-├── powerbi/                 <- Power BI files (PBIX, videos, theme, etc.)
+│   └── powerbi_photos/      <- Images/screenshots of the project
+├── powerbi/                 <- Folder containing the final report, Power BI files (PBIX, videos, theme, etc.)
 ├── sql/                     <- SQL scripts used in the project
 ├── .gitattributes
-└── README.md
+└── README.md                <- README .
 ```
