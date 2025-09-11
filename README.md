@@ -42,4 +42,4 @@ The dashboard simulates a SQL connection with Power BI. In the SQL section, you 
 + **Overview:** Shows charts that identify the total applications by month, by state, by purpose, by loan term, borrower employment length, and housing status.
 + **Details:** Provides details of each loan application such as purpose, issue date, amount, interest rate, grade, etc.
 
-[Detalles de las medidas creadas.]() 
+[Detalles de las medidas creadas.](https://github.com/Margaly-Flores/Bank-Loan-Analysis-PowerBI-SQL/blob/main/powerbi/MEASURES.md) 
