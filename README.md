@@ -36,6 +36,7 @@ The bank loan dataset contains 24 columns. These fields, described in the [data]
 
 ## Dashboard
 The dashboard simulates a SQL connection with Power BI. In the SQL section, you will find the detailed data exploration queries as well as the connection settings to SQL.
+
 **The Power BI Dashboard consists of three report pages:**
 + **Summary:** Displays details about good loans granted and bad loans (percentage, number, total amount, loan status, etc.).  
 + **Overview:** Shows charts that identify the total applications by month, by state, by purpose, by loan term, borrower employment length, and housing status.
