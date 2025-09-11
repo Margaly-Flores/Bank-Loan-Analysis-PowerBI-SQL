@@ -28,11 +28,17 @@ This project repository is organised as follows:
 └── README.md                <- README .
 ```
 
-## Data
+## [Data](https://github.com/Margaly-Flores/Bank-Loan-Analysis-PowerBI-SQL/blob/main/data/DATA_DESCRIPTION.md)
 This dataset represents thousands of loans granted through the Lending Club platform. LendingClub is a leading digital bank in the United States that provides a wide range of financial services to individuals and businesses, including personal loans, small business loans, and full-service banking solutions.
 
 The bank loan dataset contains 24 columns. These fields, described in the [data](https://github.com/Margaly-Flores/Bank-Loan-Analysis-PowerBI-SQL/blob/main/data/DATA_DESCRIPTION.md) section, provide detailed information about the borrowers and each loan, including the last payment date, interest rate, debt-to-income (DTI) ratio, loan purpose, risk classification, and more.
 
 
+## Dashboard
+The dashboard simulates a SQL connection with Power BI. In the SQL section, you will find the detailed data exploration queries as well as the connection settings to SQL.
+**The Power BI Dashboard consists of three report pages:**
++ **Summary:** Displays details about good loans granted and bad loans (percentage, number, total amount, loan status, etc.).  
++ **Overview:** Shows charts that identify the total applications by month, by state, by purpose, by loan term, borrower employment length, and housing status.
++ **Details:** Provides details of each loan application such as purpose, issue date, amount, interest rate, grade, etc.
 
-## Conclusiones
+[Detalles de las medidas creadas.]() 
