@@ -29,4 +29,6 @@ This project repository is organised as follows:
 
 
 ## Dashboard
+```html
 <iframe title="dash" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZDVjNWQ5MzYtMzA3Zi00ODYzLWE5YjUtMzhlZWY4NzZlZWQyIiwidCI6IjFlYmE0NDNmLTIzZTUtNDUzNC05MGQxLTA5NzZhYWJlODZhYyIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
+```
