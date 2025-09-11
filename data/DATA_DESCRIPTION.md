@@ -6,31 +6,30 @@ Each of the fields in the dataset will be described below.
 Field  | Description
 ------------- | -------------
 ID  | Loan ID. A unique identifier assigned to each loan application or loan account. Serves as the primary key.
-Content Cell  | Content Cell 
-Content Cell  | Content Cell
-Content Cell  | Content Cell 
-Content Cell  | Content Cell
-Content Cell  | Content Cell 
-Content Cell  | Content Cell
-Content Cell  | Content Cell 
-Content Cell  | Content Cell
-Content Cell  | Content Cell 
-Content Cell  | Content Cell
-Content Cell  | Content Cell 
-Content Cell  | Content Cell
-Content Cell  | Content Cell 
-Content Cell  | Content Cell
-Content Cell  | Content Cell 
-Content Cell  | Content Cell
-Content Cell  | Content Cell 
-
 ADDRESS_STATE  |  Borrower’s location.
 APPLICATION_TYPE  |  Application type. Indicates whether the loan is an individual application or a joint one with two co-borrowers.
 EMP_LENGTH  |  Employment length. Information about the borrower’s job stability. Duration of employment in years. Possible values range from 0 to 10, where 0 means less than one year and 10 means ten or more years.
-
 EMP_TITLE  |  Job title. Specifies the borrower’s occupation or job title. Helps to understand the source of income.
-
 GRADE  |  Risk grade assigned to the loan according to the borrower’s creditworthiness. Higher grades indicate lower risk. A, B, C, D, E, F.
+Content Cell  | Content Cell 
+Content Cell  | Content Cell
+Content Cell  | Content Cell 
+Content Cell  | Content Cell
+Content Cell  | Content Cell 
+Content Cell  | Content Cell
+Content Cell  | Content Cell 
+Content Cell  | Content Cell
+Content Cell  | Content Cell 
+Content Cell  | Content Cell
+Content Cell  | Content Cell 
+Content Cell  | Content Cell
+Content Cell  | Content Cell 
+Content Cell  | Content Cell
+Content Cell  | Content Cell 
+Content Cell  | Content Cell
+Content Cell  | Content Cell 
+
+
 
 A → Very low risk
 
