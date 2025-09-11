@@ -1,4 +1,4 @@
-## Description os fields 
+## Description of fields 
 
 Each of the fields in the dataset will be described below.
 

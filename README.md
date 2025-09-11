@@ -1,4 +1,4 @@
-# [Bank Loan - Data Analysis](https://app.powerbi.com/view?r=eyJrIjoiMmZjYjg1NzctZTk0ZS00OTRmLThlYWUtZTlkZjA3ZjU4ODc2IiwidCI6IjFlYmE0NDNmLTIzZTUtNDUzNC05MGQxLTA5NzZhYWJlODZhYyIsImMiOjR9 "Power BI link")
+# [Bank Loan - Data Analysis](https://app.powerbi.com/view?r=eyJrIjoiZDVjNWQ5MzYtMzA3Zi00ODYzLWE5YjUtMzhlZWY4NzZlZWQyIiwidCI6IjFlYmE0NDNmLTIzZTUtNDUzNC05MGQxLTA5NzZhYWJlODZhYyIsImMiOjR9 "Power BI link")
 
 ## Overview 
 
@@ -25,3 +25,8 @@ This project repository is organised as follows:
 
 
 ## Data
+
+
+
+## Dashboard
+<iframe title="dash" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZDVjNWQ5MzYtMzA3Zi00ODYzLWE5YjUtMzhlZWY4NzZlZWQyIiwidCI6IjFlYmE0NDNmLTIzZTUtNDUzNC05MGQxLTA5NzZhYWJlODZhYyIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
