@@ -11,7 +11,7 @@ This type of analysis is highly valuable, as banks commonly evaluate the profita
 
 ## Preview
 
-https://github.com/user-attachments/assets/bb64417f-318c-4936-9bdf-97a58bd92b79
+https://github.com/user-attachments/assets/acaa08e7-debe-4ecd-960a-5c826cca4a3d
 
 ## Project Structure
 
