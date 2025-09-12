@@ -89,13 +89,52 @@ Borrowers who have paid off their entire debt ('Fully Paid') or are still paying
 
 Calculate: 
 
-##### Good Loan Application Percentage
-Good Loan Applications
-Good Loan Funded Amount
-Good Loan Total Received Amount
+#### Good Loan Application Percentage
+```DAX
+Good Loan % = DIVIDE(CALCULATE([Total Loan Applications],bank_loan_data[loan_status] IN {"Current", "Fully Paid"}),
+                    CALCULATE([Total Loan Applications],REMOVEFILTERS(bank_loan_data[loan_status]))
+)
+``` 
 
+#### Good Loan Applications
+```DAX
+Good Loan Applications = CALCULATE([Total Loan Applications],bank_loan_data[loan_status] IN {"Current", "Fully Paid"})
+```
+
+#### Good Loan Funded Amount
+```DAX
+Good Loan Funded Amount = CALCULATE([Total Funded Amount],bank_loan_data[loan_status] IN {"Current", "Fully Paid"})
+```
+
+#### Good Loan Total Received Amount
+```DAX
+Good Loan Amount Received = CALCULATE([Total Amount Receive] ,bank_loan_data[loan_status] IN {"Current", "Fully Paid"})
+```
 
 
 
 ### Bad Loan 
 Here are the borrowers who did not pay off their debt ('Charged Off'). 
+
+Calculate: 
+#### Bad Loan Application Percentage
+```DAX
+Bad Loan % = DIVIDE(CALCULATE([Total Loan Applications],bank_loan_data[loan_status] IN {"Charged Off"}),
+                    CALCULATE([Total Loan Applications],REMOVEFILTERS(bank_loan_data[loan_status]))
+)
+```
+
+#### Bad Loan Applications
+```DAX
+Bad Loan Applications = CALCULATE([Total Loan Applications],bank_loan_data[loan_status] IN {"Charged Off"})
+```
+
+#### Bad Loan Funded Amount
+```DAX
+Bad Loan Funded Amount = CALCULATE([Total Funded Amount],bank_loan_data[loan_status] IN {"Charged Off"})
+```
+
+#### Bad Loan Total Received Amount
+```DAX
+Bad Loan Amount Received = CALCULATE([Total Amount Receive] ,bank_loan_data[loan_status] IN {"Charged Off"})
+```
