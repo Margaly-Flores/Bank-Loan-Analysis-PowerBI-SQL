@@ -61,6 +61,10 @@ MoM Avg Int Rate = ([MTD Avg Int Rate] - [PMTD Avg Int Rate])/[PMTD Avg Int Rate
 #### Average Debt-to-Income(DTI) Ratio: 
 Evaluates the average DTI of borrowers to assess their financial health. We calculate the average DTI across all loans, track MTD performance, and monitor MoM fluctuations.
 
+$$
+\mathrm{DTI} \;=\; \left(\frac{\text{Pagos mensuales de deuda}}{\text{Ingreso mensual bruto}}\right)\times 100
+$$
+
 DTI  | Description
 ------------- | -------------
 0% – 20%  |  Excellent. Strong capacity to take on credit.
@@ -79,3 +83,5 @@ MTD Avg DTI = CALCULATE(TOTALMTD([Avg DTI],'Date Table'[Date]))
 ```DAX
 MoM Avg DTI = ([MTD Avg DTI] - [PMTD Avg DTI])/[PMTD Avg DTI]
 ```
+
+#### Good Loan 
