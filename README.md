@@ -34,7 +34,7 @@ This dataset represents thousands of loans granted through the Lending Club plat
 The bank loan dataset contains 24 columns. These fields, described in the [data](https://github.com/Margaly-Flores/Bank-Loan-Analysis-PowerBI-SQL/blob/main/data/DATA_DESCRIPTION.md) section, provide detailed information about the borrowers and each loan, including the last payment date, interest rate, debt-to-income (DTI) ratio, loan purpose, risk classification, and more.
 
 
-## Dashboard
+## [Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZDVjNWQ5MzYtMzA3Zi00ODYzLWE5YjUtMzhlZWY4NzZlZWQyIiwidCI6IjFlYmE0NDNmLTIzZTUtNDUzNC05MGQxLTA5NzZhYWJlODZhYyIsImMiOjR9)
 The dashboard simulates a SQL connection with Power BI. In the SQL section, you will find the detailed data exploration queries as well as the connection settings to SQL.
 
 **The Power BI Dashboard consists of three report pages:**
