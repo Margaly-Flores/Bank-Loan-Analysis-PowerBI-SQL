@@ -1,4 +1,4 @@
-#### Total Loan Applications
+### Total Loan Applications
 Calculates the total number of loan applications received during a given period. It is important to monitor monthly-to-date (MTD) loan applications and track month-over-month (MoM) changes.
 
 ```DAX
@@ -62,7 +62,7 @@ MoM Avg Int Rate = ([MTD Avg Int Rate] - [PMTD Avg Int Rate])/[PMTD Avg Int Rate
 Evaluates the average DTI of borrowers to assess their financial health. We calculate the average DTI across all loans, track MTD performance, and monitor MoM fluctuations.
 
 $$
-\mathrm{DTI} \;=\; \left(\frac{\text{Pagos mensuales de deuda}}{\text{Ingreso mensual bruto}}\right)\times 100
+\mathrm{DTI} = \left(\frac{\text{Pagos mensuales de deuda}}{\text{Ingreso mensual bruto}}\right)\times 100
 $$
 
 DTI  | Description
@@ -85,3 +85,10 @@ MoM Avg DTI = ([MTD Avg DTI] - [PMTD Avg DTI])/[PMTD Avg DTI]
 ```
 
 #### Good Loan 
+Borrowers who have paid off their entire debt ('Fully Paid') or are still paying it off (‘Current’) are considered.
+
+
+
+
+#### Bad Loan 
+Here are the borrowers who did not pay off their debt ('Charged Off'). 
